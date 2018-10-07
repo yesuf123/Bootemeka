@@ -13,16 +13,20 @@ import cucumber.api.java.en.When;
 
 public class Zoopla {
 	WebDriver driver;
+	private Test01 key;
 	
 	@Given("^I render the widget$")
 	public void i_render_the_widget() throws Throwable {
 
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/macssd/Desktop/jar/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/macssd/Desktop/selenium/chromedriver");
 		driver = new ChromeDriver();
 		
 		driver.get("https://www.zoopla.co.uk");
-	    
+//		key = new Test01(); 
+//		key.enterName();
+	    Test01 d = new Test01();
+	    d.enterName();
 
 	}
 
