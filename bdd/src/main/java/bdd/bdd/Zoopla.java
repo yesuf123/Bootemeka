@@ -23,10 +23,10 @@ public class Zoopla {
 		driver = new ChromeDriver();
 		
 		driver.get("https://www.zoopla.co.uk");
-//		key = new Test01(); 
-//		key.enterName();
-	    Test01 d = new Test01();
-	    d.enterName();
+		key = new Test01(); 
+		key.enterName();
+//	    Test01 d = new Test01();
+//	    d.enterName();
 
 	}
 
